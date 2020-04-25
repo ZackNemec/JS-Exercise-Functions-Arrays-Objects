@@ -161,12 +161,12 @@ function appleIndex(fruits) {
  * the returned value should be: [ false, true, false, false, true, false ].
  */
 function isItAnApple(fruits) {
-  const apple = [];
+  let apple = [];
   for (let i = 0; i < fruits.length; i++) {
-    if (fruits.indexOf === "apple") {
-      apple.push["true"];
+    if (fruits[i] === "apple") {
+      apple.push(true);
     } else {
-      apple.push["false"];
+      apple.push(false);
     }
   }
   return apple;
@@ -333,15 +333,6 @@ function getGermanCars(inventory) {
   }
   return germanMade;
 }
-const sum = (a, b) => {
-  return a + b;
-};
-const addFive = (num) => {
-  return num + 5;
-};
-const argTimesTwo = (num) => {
-  return num * 2;
-};
 
 /**
  * ### Challenge `carMaker`
